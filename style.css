@@ -1,0 +1,1255 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body{
+	font-family: sans-serif;
+
+}
+
+/*.carousel-item{
+	height: 100vh;
+	min-height: 300px;
+	background:no-repeat center center scroll;
+	-webkit-background-size:cover;
+	background-size: cover;
+}*/
+.navbar{
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	background-color: black;
+}
+.nav-link{
+	color: white;
+	
+}
+.dropdown:hover> .dropdown-menu{
+	display: block;
+}
+
+.dropdown-item{
+	display: block;
+	background-color: black;
+}
+
+.dropdown-item:hover{
+	background-color:#aca100; 
+}
+
+.nav-item{
+	color: white;
+
+}
+.logo-image{
+	display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+    width: 60;
+    height: 50;
+    vertical-align: middle;
+}
+
+/*
+
+<div class="carousel-caption d-none d-md-block">
+      	<section class="circle" >
+	<div class="navbar1">Explore
+		<ul class="menu">
+			<li><a href="#">Ongoing</a></li>
+			<li><a href="#">Upcoming</a></li>
+			<li><a href="#">Completed</a></li>
+			
+		</ul>
+	</div>
+
+#myCarousel{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#myCarousel.carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#myCarousel.carousel-inner.item{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-image: url(shanataback1.jpg);
+}
+*/
+.circle{
+	background-color: 
+	overflow: hidden;
+	width: 350px;
+	height: 350px;
+	line-height: 350px;
+	border-radius: 50%;
+	margin:200px auto;
+	padding-bottom: 50px;
+	position: relative;
+	cursor: pointer;
+	text-align: center;
+	border:1px solid #e6e6c8;
+	padding: 4px;
+	
+}
+.circle:hover{
+	background-color: rgb(92, 52, 184);
+}
+.navbar1{
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,.5);
+	margin:100px auto;
+	position: relative;
+	cursor: pointer;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	transition: 0.24s 0.2s;
+}
+
+.circle .menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top:-75px;
+	left:-75px;
+	border:150px solid transparent;
+	cursor: default;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: transform 1.4s 0.07s;
+	z-index: -1;
+}
+
+.circle:hover .menu{
+	transition: transform 0.4s 0.08s , z-index 0s 0.5s;
+	transform: scale(1);
+	z-index: 1;
+}
+.circle .menu li{
+	position: absolute;
+	top: -100px;
+	left: -100px;
+	transform-origin: 100px 100px;
+	transition:all 0.5s 0.1s;
+}
+
+.circle:hover .menu li{
+	transition: all 0.7s;
+
+}
+
+.circle .menu li a {
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	background-color:rgb(92, 52, 184) ;
+	position: absolute;
+	font-size: 16px;
+	color: white;
+	transition: 0.7s;
+}
+
+.circle:hover .menu li:nth-child(1){
+	transition-delay: 0.2s;
+	transform: rotate(250deg);
+}
+
+.circle:hover .menu li:nth-child(2){
+	transition-delay: 0.4s;
+	transform: rotate(290deg);
+}
+.circle:hover .menu li:nth-child(3){
+	transition-delay: 0.4s;
+	transform: rotate(210deg);
+}
+
+/*Circle Nav Slide In This Section=====================*/
+.navSlide{
+	height: 800px;
+	width: 100%;
+}
+
+/* Image Thumbs part====================================*/
+
+.ImageThumbs{
+	
+	width: 100%;
+	background-image: url(ImageThumsback.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btn{
+	height: 30px;
+	width: 130px;
+	background-color: #a0b2bb;
+	color: white;
+}
+
+.btn:hover{
+	color: white;
+	background-color: #337ab7;
+}
+
+/*why Shanta Holding Section===================================*/
+
+#WhyShantaHolding{
+	background-image: url(why.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	
+}
+
+.btn1{
+	height: 40px;
+	width: 130px;
+	border:3px solid white;
+	color: white;
+	background-color: rgb(117, 91, 91,0.40);
+}
+
+.btn1:hover{
+	color: black;
+	background-color: white;
+}
+
+.box{
+	height: 200px;
+	width: 180px;
+	background-color: white;
+	
+}
+.box:hover{
+
+	background-color:rgb(182, 165, 64,0.9);
+	color: white;
+
+}
+.text{
+	text-align: center;
+	padding-top: 90px;
+}
+
+
+.SocialMedia{
+	background-color:rgb(164, 185, 173,0.90);
+}
+
+.instagram:hover{
+	background-color: #aca100;
+
+}
+
+.boxPart{
+	background-image: url(box.jpg);
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.Inner{
+	margin-top: 150px;
+	color: white;
+	
+}
+
+
+*,*:before,*:after{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.content{
+	position: absolute;
+	height: 250px;
+	width: 100%;
+	border:3px solid white;
+	
+
+}
+
+
+.content:hover{
+	background-color:  #aca100;
+}
+
+
+
+
+
+
+.badge{
+	position: relative;
+	text-decoration: none;
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	display: inline-block;
+	font-size: 28px;
+	color: black;
+	top:-3px;
+	left: -3px;
+	
+}
+
+
+.badge:before{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0;
+	height: 0;
+	border:5px solid transparent;
+}
+
+.badge:hover:before{
+	animation: animate 1s linear forwards;
+}
+
+@keyframes animate{
+	0%{
+		width: 0;
+		height: 0;
+		border-top-color:#aca100;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+
+	}
+
+	50%{
+		width: 100%;
+		height: 0;
+		border-top-color: #aca100;
+		border-right-color:#aca100;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+
+	}
+
+	100%{
+		width: 100%;
+		height: 100%;
+		border-top-color:#aca100;
+		border-right-color: #aca100;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+
+	}
+}
+
+.badge:after{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0;
+	height: 0;
+	border:5px solid transparent;
+}
+
+.badge:hover:after{
+	animation: animate2 1s linear forwards;
+}
+
+@keyframes animate2{
+	0%{
+		width: 0;
+		height: 0;
+		border-top-color:transparent;
+		border-right-color: transparent;
+		border-bottom-color:#aca100;
+		border-left-color: transparent;
+
+	}
+
+	50%{
+		width: 0;
+		height: 100%;
+		border-top-color: transparent;
+		border-right-color:transparent;
+		border-bottom-color: #aca100;
+		border-left-color: #aca100;
+
+	}
+
+	100%{
+		width: 100%;
+		height: 100%;
+		border-top-color:transparent;
+		border-right-color: transparent;
+		border-bottom-color: #aca100;
+		border-left-color: #aca100;
+
+	}
+}
+
+/* footer Section in this part*/
+.footer{
+
+	width: 100%;
+	background-color: white;
+}
+
+div.relative {
+  position: relative;
+  width: 100px;
+  height: 20px;
+  border-top: 2px solid black;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 50px;
+  height: 10px;
+ 
+}
+
+/* Our Story Page Se3ction=================================================*/
+
+.ourstoryback{
+	height: 800px;
+	width: 100%;
+	background-image: url(OurStoryBack.jpg);
+	background-position: center;
+	background-size: cover;
+	opacity: 0.90;
+}
+
+.BackgoundHistory{
+	background-color: white;
+	width: 100%;
+	
+}
+
+.WhoWeAre{
+	background-color: rgb(153, 176, 182);
+	width: 100%;
+}
+
+.OurApproch{
+	background-color: rgba(35,31,32,.9);
+	background-image: url(OurStoryApproch.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.OurLogo{
+	background-color: white;
+	width: 100%;
+}
+  
+  /* vision Mission page========================*/
+.VisionMissionBack{
+	height: 800px;
+	width: 100%;
+	background-image: url(VisionMissionBack.jpg);
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.visionmissionbox{
+	background-color: rgb(153, 176, 182);
+	width: 100%;
+	
+}
+
+.visionBox{
+	background-color: rgb(153, 176, 182);
+	border:3px solid white;
+	height: 300px
+	width:200px;
+}
+.box1{
+	height: 250px;
+	width: 200px;
+	border:4px solid white;
+}
+
+/* Board Of Director Page=================================*/
+
+.BoardOfDirectorBack{
+	height: 800px;
+	width: 100%;
+	background-image: url(Boardofdirector.jpg);
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.DirectorInfo{
+	background-color: white;
+	width: 100%;
+}
+
+
+/*Management Team page================*/
+
+.ManagementTeamBack{
+
+	height: 800px;
+	width: 100%;
+	background-image: url(Managementteamback.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+.ceo{
+	width: 100%;
+	background-color: white;
+}
+
+.SeniorManagement{
+	width: 100%;
+	background-color: white;
+}
+
+div.relative1 {
+  position: relative;
+  width: 400px;
+  height: 20px;
+  border-top: 1px solid black;
+  opacity: 0.50;
+} 
+
+div.absolute1 {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 200px;
+  height: 10px;
+ 
+}
+
+.OurTeam{
+	width: 100%;
+	background-color: white;
+
+}
+
+/* Companies Page==================================================*/
+
+.CompaniesBack{
+
+	height: 800px;
+	width: 100%;
+	background-color: rgb(13, 12, 13);
+	background-position: center;
+	background-size: cover;
+
+}
+
+.CompaniesDetails{
+	width: 100%;
+	background-color:rgb(164, 185, 173,0.90); 
+}
+
+
+.box3{ 
+	color: white;
+	height: 200px;
+	width: 280px;
+	background-image: url(Companiesdemo1.png);
+	background-size: cover;
+	background-position: center;
+	
+}
+.box3:hover{
+
+	background-color:rgb(182, 165, 64,0.9);
+	color: black;
+
+}
+
+.haha{
+	color: white;
+	height: 205px;
+	width: 280px;
+	
+}
+
+.haha:hover{
+	background-color:#AAA000;
+	color: white;
+}
+.box4{ 
+	color: white;
+	height: 200px;
+	width: 280px;
+	background-image: url(Companiesdemo2.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.box5{ 
+	color: white;
+	height: 200px;
+	width: 280px;
+	background-image: url(Companiesdemo3.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+
+/* CSR Page Section===========================*/
+
+.CSRBack{
+
+	height: 800px;
+	width: 100%;
+	background-image: url(csrback.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+
+/* Client Page Section============================*/
+
+.OurClientBack{
+	height: 800px;
+	width: 100%;
+	background-image: url(OurClientback.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.FootprintName{
+	background-color: white;
+}
+.ClientList{
+	width: 100%;
+	background-color: gainsboro;
+	
+}
+
+/*On Going Page Section ========================================*/
+
+.OngoingHeader{
+	width: 100%;
+	background-image: url(Ongoingback.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.OngoingText{
+	margin-top: 200px;
+	color: #aab0b2;
+}
+
+
+/* News And Event Page Section=========================*/
+
+.NewsAndEventback{
+	background-image: url(NewsAndEventback.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 800px;
+
+}
+
+.NewsAndEventList{
+	background-color: #e0f2f2;
+	width: 100%;
+}
+
+.news{
+	width: 50px;
+	height: 25px;
+	background-color: #777;
+	color: white;
+	text-align: center;
+	border-radius: 16px;
+}
+
+.Newsbtn{
+	color: black;
+}
+
+.Newsbtn:hover{
+	color: black;
+}
+
+div.relativeN {
+  position: relative;
+  width: 80px;
+  height: 20px;
+  border-top: 2px solid black;
+} 
+
+div.absoluteN {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 40px;
+  height: 10px;
+ 
+}
+
+/* Career Page Section==================================================*/
+
+.Careerback{
+	background-image: url(Careerback.jpg);
+	height: 800px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.CareerParallaxback{
+	background-image: url(CareerParallaxback.jpg);
+	width: 100%;
+	
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.CareerParallaxback1{
+    width: 100%;
+	
+	background-color: rgb(10,10,10,0.70);
+	color: white;
+}
+
+.CareerInfo{
+	background-color: rgb(160, 190, 200);
+	width: 100%;
+	
+}
+.form-control{
+	background-color: rgb(160, 190, 200);
+	border:1px solid rgb(160, 190, 200) ;
+	border-bottom: 1px solid white;
+
+}
+
+.lblclass{
+	font-size: 20px;
+	color: white;
+
+}
+.form-group{
+	width: 100%;
+	background-color: rgb(160, 190, 200);
+}
+
+.button{
+	width: 100px;
+	height: 40px;
+	border:3px solid white;
+	background-color: rgb(160, 190, 200);
+	color: white; 
+}
+
+.button:hover{
+	background-color: white;
+	color: black;
+}
+
+/*  LandOwner Page Section======================================================*/
+
+.LandOwnerBack{
+	background-image: url(LandOwnerback.jpeg);
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.LandOwnerBack1{
+	height: 800px;
+	width: 100%;
+	background-color: rgb(10,10,10,0.40);
+}
+
+.LandOwnerDetails{
+	width: 100%;
+	background-color: white;
+
+}
+
+.LandOwnerForm{
+	background-color: rgb(160, 190, 200);
+	width: 100%;
+
+}
+
+.custom-select{
+	background-color:  rgb(160, 190, 200);
+	border:1px solid  rgb(160, 190, 200);
+	border-bottom: 1px solid white;
+}
+
+
+/*Buyers Page Section=============================================================*/
+
+.BuyersBack{
+	background-image: url(Buyerback.jpg);
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.BuyersBack1{
+	height: 800px;
+	width: 100%;
+	background-color: rgb(10,10,10,0.40);
+}
+.BuyerDetails{
+	width: 100%;
+	background-color: white;
+}
+
+.BuyerForm{
+	background-color: rgb(160, 190, 200);
+	width: 100%;
+}
+
+/* Customers Page Section============================================================*/
+
+.CustomerBack{
+	background-image: url(Buyerback.jpg);
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.CustomerBack1{
+	height: 800px;
+	width: 100%;
+	background-color: rgb(30,10,10,0.60);
+}
+
+.CustomerDetails{
+	width: 100%;
+	background-color: white;
+}
+
+/* Contract us page Section====================================*/
+
+.ContractUsBack{
+	background-image: url(ContractUsback.jpg);
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ContractUsBack1{
+	height: 800px;
+	width: 100%;
+	background-color: rgb(10,10,10,0.50);
+}
+
+.ContractDetails{
+	width: 100%;
+	background-color: white;
+}
+
+.ContractForm{
+	background-color: rgb(160, 190, 200);
+	width: 100%;
+}
+
+/*Ongoing Project Page Section==================================*/
+.MultiButton{
+	width: 100%;
+	background-color: #f9f9f9;
+}
+
+.btnOn{
+	border:1px solid white;
+	color: black;
+
+}
+
+.btnOn:hover{
+	color: #aca100;
+}
+.projectbutton{
+	width: 100%;
+	height: 80px;
+	margin-top: 300px;
+	background-color: rgb(10,10,10,0.70);
+	border:1px solid rgb(10,10,10,0.70);
+	color: white;
+	
+
+}
+
+.projectImageButton1{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection1.jpg);
+	width: 100%;
+	height: 500px;
+	transition: height 2s;
+}
+
+.projectImageButton1:hover{
+	height: 520px;
+	width: 100%;
+}
+
+.projectImageButton2{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection2.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton3{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection3.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton4{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection4.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton5{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection5.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton6{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection6.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+
+.projectImageButton7{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection7.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton8{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection8.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton9{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection9.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton10{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection10.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton11{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection11.gif);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton12{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection12.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton13{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection13.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton14{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection14.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton15{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection15.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton16{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection16.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton17{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection17.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton18{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection18.gif);
+	width: 100%;
+	height: 500px;
+}
+
+.projectImageButton19{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(ProjectSection19.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+
+/* UpComing Page Section===================================*/
+
+.UpcomingImageButton1{
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Upcoming1.gif);
+	width: 100%;
+	height: 500px;
+}
+
+.UpcomingImageButton2{
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Upcoming2.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.UpcomingImageButton3{
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Upcoming2.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.UpcomingImageButton4{
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Upcoming3.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+/* Completed Page Section===============================================*/
+
+.CompletedImageButton1{
+     background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete1.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.CompletedImageButton2{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete2.jpg);
+	width: 100%;
+	height: 500px;
+
+}
+
+.CompletedImageButton3{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete3.jpg);
+	width: 100%;
+	height: 500px;
+
+}
+
+.CompletedImageButton4{
+     background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete4.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.CompletedImageButton5{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete5.jpg);
+	width: 100%;
+	height: 500px;
+
+}
+
+.CompletedImageButton6{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete6.jpg);
+	width: 100%;
+	height: 500px;
+
+}
+
+
+.CompletedImageButton7{
+     background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete7.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.CompletedImageButton8{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete8.jpg);
+	width: 100%;
+	height: 500px;
+
+}
+
+.CompletedImageButton9{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete9.jpg);
+	width: 100%;
+	height: 500px;
+
+}
+
+.CompletedImageButton10{
+     background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete10.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+.CompletedImageButton11{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete11.jpg);
+	width: 100%;
+	height: 500px;
+
+}
+
+.CompletedImageButton12{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(Complete12.jpg);
+	width: 100%;
+	height: 500px;
+
+}
